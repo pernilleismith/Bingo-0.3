@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -115,7 +115,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="1Qb-EA-epH" userLabel="3rdStackView">
                                 <rect key="frame" x="76" y="597" width="262" height="211"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-Yu-Uel">
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-Yu-Uel" userLabel="ellevteRadStackView">
                                         <rect key="frame" x="0.0" y="0.0" width="262" height="40.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAX-9L-j25">
@@ -181,7 +181,7 @@
                                         </subviews>
                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ziu-BH-08j">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ziu-BH-08j" userLabel="tolvteRadStackView">
                                         <rect key="frame" x="0.0" y="42.5" width="262" height="40.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bju-sa-j4l">
@@ -246,7 +246,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hC3-rl-0EA">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hC3-rl-0EA" userLabel="trettendeRadStackView">
                                         <rect key="frame" x="0.0" y="85" width="262" height="41"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUZ-SA-6b6">
@@ -311,7 +311,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-xE-gvU">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-xE-gvU" userLabel="fjortendeRadStackView">
                                         <rect key="frame" x="0.0" y="128" width="262" height="40.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRR-gF-6ty">
@@ -376,7 +376,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-Yu-vxa">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIt-Yu-vxa" userLabel="femtendeRadStackView">
                                         <rect key="frame" x="0.0" y="170.5" width="262" height="40.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-8k-lMj">
@@ -443,10 +443,10 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="F0v-wx-KxD">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="F0v-wx-KxD" userLabel="1stStackView">
                                 <rect key="frame" x="76" y="141" width="262" height="208"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="aQN-gH-uWZ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="aQN-gH-uWZ" userLabel="førsteRadStackView">
                                         <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-eN-Gbx">
@@ -514,7 +514,7 @@
                                             <constraint firstAttribute="height" constant="40" id="UaO-1f-IDv"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="lon-N7-TOu">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="lon-N7-TOu" userLabel="andreRadStackView">
                                         <rect key="frame" x="0.0" y="42" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n53-Og-Dgi">
@@ -582,7 +582,7 @@
                                             <constraint firstAttribute="height" constant="40" id="7e0-cc-pqv"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-So-Zlf">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-So-Zlf" userLabel="tredjeRadStackView">
                                         <rect key="frame" x="0.0" y="84" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUW-ld-B0F">
@@ -650,7 +650,7 @@
                                             <constraint firstAttribute="height" constant="40" id="sPq-Ek-f9t"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="YJg-g0-15z">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="YJg-g0-15z" userLabel="fjerdeRadStackView">
                                         <rect key="frame" x="0.0" y="126" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAM-pM-0Da">
@@ -718,7 +718,7 @@
                                             <constraint firstAttribute="height" constant="40" id="is8-bn-ajw"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="2We-JC-fjZ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="2We-JC-fjZ" userLabel="femteRadStackView">
                                         <rect key="frame" x="0.0" y="168" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEu-Ks-zu6">
@@ -794,7 +794,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-0B-h8u" userLabel="2nd StackView">
                                 <rect key="frame" x="76" y="369" width="262" height="208"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="b2V-EN-vgv">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="b2V-EN-vgv" userLabel="sjetteRadStackView">
                                         <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Tg-YBG">
@@ -862,7 +862,7 @@
                                             <constraint firstAttribute="height" constant="40" id="RPs-8U-jTB"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-uj-ps1">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-uj-ps1" userLabel="syvendeRadStackView">
                                         <rect key="frame" x="0.0" y="42" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cO3-Nv-n7x">
@@ -930,7 +930,7 @@
                                             <constraint firstAttribute="height" constant="40" id="5Ym-Um-UR8"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="loJ-Jm-aIf">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="loJ-Jm-aIf" userLabel="åttendeRadStackView">
                                         <rect key="frame" x="0.0" y="84" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXJ-Dg-gXJ">
@@ -998,7 +998,7 @@
                                             <constraint firstAttribute="height" constant="40" id="vFP-Y9-beB"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="rkZ-Jj-9bo">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="rkZ-Jj-9bo" userLabel="niendeRadStackView">
                                         <rect key="frame" x="0.0" y="126" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5i-rs-qSU">
@@ -1066,7 +1066,7 @@
                                             <constraint firstAttribute="height" constant="40" id="SyN-fI-WjS"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="FH4-n3-TcR">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="FH4-n3-TcR" userLabel="tiendeRadStackView">
                                         <rect key="frame" x="0.0" y="168" width="262" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHI-zW-TFI">
@@ -1191,6 +1191,7 @@
                         <outlet property="b7" destination="cO3-Nv-n7x" id="B7V-Fn-mx2"/>
                         <outlet property="b8" destination="kXJ-Dg-gXJ" id="7Dd-Rs-Gg0"/>
                         <outlet property="b9" destination="g5i-rs-qSU" id="9VO-YX-RcD"/>
+                        <outlet property="firstStackView" destination="F0v-wx-KxD" id="lz2-49-Yii"/>
                         <outlet property="g1" destination="45i-cG-YZ5" id="ILB-6Q-2N5"/>
                         <outlet property="g10" destination="dL3-Kn-qBC" id="7LS-hV-qha"/>
                         <outlet property="g11" destination="co1-5H-Dbg" id="sZJ-vZ-QbP"/>
@@ -1251,6 +1252,10 @@
                         <outlet property="o7" destination="puU-nR-803" id="Cs0-NY-TLw"/>
                         <outlet property="o8" destination="iOB-6U-HMu" id="F0L-JU-jWu"/>
                         <outlet property="o9" destination="oQH-dv-8mm" id="fJR-f7-4hR"/>
+                        <outletCollection property="secondStackView" destination="p2a-0B-h8u" collectionClass="NSMutableArray" id="u4d-JZ-cBL"/>
+                        <outletCollection property="secondStackView" destination="p2a-0B-h8u" collectionClass="NSMutableArray" id="mBk-69-r4I"/>
+                        <outletCollection property="thirdStackView" destination="1Qb-EA-epH" collectionClass="NSMutableArray" id="JuC-wE-dMa"/>
+                        <outletCollection property="alleBoksene" destination="p2a-0B-h8u" collectionClass="NSMutableArray" id="ZCQ-Nf-xyk"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="ViewController" id="yde-92-eLh"/>
                     </connections>
                 </viewController>
@@ -1263,6 +1268,6 @@
         <image name="Bingo banner" width="320" height="100"/>
         <image name="Bingo med pernille" width="276" height="597"/>
         <image name="Button-2" width="300" height="100"/>
-        <image name="arrowshape.turn.up.left" catalog="system" width="64" height="52"/>
+        <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
     </resources>
 </document>
